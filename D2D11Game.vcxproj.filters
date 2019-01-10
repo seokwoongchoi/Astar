@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="App\App.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="App\Game.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Scene\Scene.h">
+      <Filter>Framework\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Camera\Camera.h">
+      <Filter>Framework\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Core\Subsystem\Timer.h">
+      <Filter>Framework\Core\Subsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Core\Subsystem\Graphics.h">
+      <Filter>Framework\Core\Subsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Core\Subsystem\ISubsystem.h">
+      <Filter>Framework\Core\Subsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Core\Settings.h">
+      <Filter>Framework\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Core\Window.h">
+      <Filter>Framework\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Core\Context.h">
+      <Filter>Framework\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Resource\Texture2D.h">
+      <Filter>Framework\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Resource\Mesh.h">
+      <Filter>Framework\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Core\Subsystem\SceneManager.h">
+      <Filter>Framework\Core\Subsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Scene\GameObject.h">
+      <Filter>Framework\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Utility\GenericGeometry.h">
+      <Filter>Framework\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Core\Subsystem\DirectWrite.h">
+      <Filter>Framework\Core\Subsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Core\Subsystem\Input.h">
+      <Filter>Framework\Core\Subsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Core\D3D11\VertexBuffer.h">
+      <Filter>Framework\Core\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Core\D3D11\VertexLayout.h">
+      <Filter>Framework\Core\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Core\D3D11\VertexShader.h">
+      <Filter>Framework\Core\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Core\D3D11\BaseShader.h">
+      <Filter>Framework\Core\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Core\D3D11\ConstantBuffer.h">
+      <Filter>Framework\Core\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Core\D3D11\ConstantBufferDataType.h">
+      <Filter>Framework\Core\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Core\D3D11\IndexBuffer.h">
+      <Filter>Framework\Core\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Core\D3D11\PixelShader.h">
+      <Filter>Framework\Core\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Resource\SpriteAnimation.h">
+      <Filter>Framework\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Utility\Xml.h">
+      <Filter>Framework\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Resource\IResource.h">
+      <Filter>Framework\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Core\Subsystem\ResourceManager.h">
+      <Filter>Framework\Core\Subsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Utility\Path.h">
+      <Filter>Framework\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Resource\Shader.h">
+      <Filter>Framework\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Component\LineRender.h">
+      <Filter>Framework\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Component\Grid.h">
+      <Filter>Framework\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Component\Transform.h">
+      <Filter>Framework\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Core\Subsystem\Audio.h">
+      <Filter>Framework\Core\Subsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Resource\AudioClip.h">
+      <Filter>Framework\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Math\Math.h">
+      <Filter>Framework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Core\D3D11\RenderTexture.h">
+      <Filter>Framework\Core\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Resource\Effect.h">
+      <Filter>Framework\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Core\Subsystem\EffectManager.h">
+      <Filter>Framework\Core\Subsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Core\D3D11\RasterizerState.h">
+      <Filter>Framework\Core\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Core\D3D11\BlendState.h">
+      <Filter>Framework\Core\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Component\Animator.h">
+      <Filter>Framework\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Math\BoundBox.h">
+      <Filter>Framework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Component\Collider.h">
+      <Filter>Framework\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Core\Subsystem\ColliderManager.h">
+      <Filter>Framework\Core\Subsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Component\AudioSource.h">
+      <Filter>Framework\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Tilemap\Tile.h">
+      <Filter>Framework\Tilemap</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Tilemap\Tilemap.h">
+      <Filter>Framework\Tilemap</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Tilemap\PathFinder\PathNode\IPathNode.h" />
+    <ClInclude Include="Framework\Tilemap\PathFinder\PathNode\AStarNode.h" />
+    <ClInclude Include="Framework\Tilemap\PathFinder\PathAlgorithm\IPathAlgorithm.h" />
+    <ClInclude Include="Framework\Tilemap\PathFinder\PathAlgorithm\AStar.h" />
+    <ClInclude Include="Framework\Tilemap\PathFinder\PathFinder.h" />
+    <ClInclude Include="Framework\Tilemap\line.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Program.cpp" />
+    <ClCompile Include="App\App.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="App\Game.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Scene\Scene.cpp">
+      <Filter>Framework\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Camera\Camera.cpp">
+      <Filter>Framework\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Core\Subsystem\Timer.cpp">
+      <Filter>Framework\Core\Subsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Core\Subsystem\Graphics.cpp">
+      <Filter>Framework\Core\Subsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Core\Settings.cpp">
+      <Filter>Framework\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Core\Window.cpp">
+      <Filter>Framework\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Resource\Texture2D.cpp">
+      <Filter>Framework\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Core\Subsystem\SceneManager.cpp">
+      <Filter>Framework\Core\Subsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Scene\GameObject.cpp">
+      <Filter>Framework\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Utility\GenericGeometry.cpp">
+      <Filter>Framework\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Core\Subsystem\DirectWrite.cpp">
+      <Filter>Framework\Core\Subsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Core\Subsystem\Input.cpp">
+      <Filter>Framework\Core\Subsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Core\D3D11\VertexBuffer.cpp">
+      <Filter>Framework\Core\D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Core\D3D11\VertexLayout.cpp">
+      <Filter>Framework\Core\D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Core\D3D11\VertexShader.cpp">
+      <Filter>Framework\Core\D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Core\D3D11\BaseShader.cpp">
+      <Filter>Framework\Core\D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Core\D3D11\ConstantBuffer.cpp">
+      <Filter>Framework\Core\D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Core\D3D11\IndexBuffer.cpp">
+      <Filter>Framework\Core\D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Core\D3D11\PixelShader.cpp">
+      <Filter>Framework\Core\D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Resource\Mesh.cpp">
+      <Filter>Framework\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Resource\SpriteAnimation.cpp">
+      <Filter>Framework\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Utility\Xml.cpp">
+      <Filter>Framework\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Core\Subsystem\ResourceManager.cpp">
+      <Filter>Framework\Core\Subsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Utility\Path.cpp">
+      <Filter>Framework\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Resource\Shader.cpp">
+      <Filter>Framework\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Component\LineRender.cpp">
+      <Filter>Framework\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Component\Grid.cpp">
+      <Filter>Framework\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Component\Transform.cpp">
+      <Filter>Framework\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Core\Subsystem\Audio.cpp">
+      <Filter>Framework\Core\Subsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Resource\AudioClip.cpp">
+      <Filter>Framework\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Math\Math.cpp">
+      <Filter>Framework\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Core\D3D11\RenderTexture.cpp">
+      <Filter>Framework\Core\D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Resource\Effect.cpp">
+      <Filter>Framework\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Core\Subsystem\EffectManager.cpp">
+      <Filter>Framework\Core\Subsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Core\D3D11\RasterizerState.cpp">
+      <Filter>Framework\Core\D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Core\D3D11\BlendState.cpp">
+      <Filter>Framework\Core\D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Component\Animator.cpp">
+      <Filter>Framework\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Math\BoundBox.cpp">
+      <Filter>Framework\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Component\Collider.cpp">
+      <Filter>Framework\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Core\Subsystem\ColliderManager.cpp">
+      <Filter>Framework\Core\Subsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Component\AudioSource.cpp">
+      <Filter>Framework\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Tilemap\Tilemap.cpp">
+      <Filter>Framework\Tilemap</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Tilemap\Tile.cpp">
+      <Filter>Framework\Tilemap</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Tilemap\PathFinder\PathAlgorithm\AStar.cpp" />
+    <ClCompile Include="Framework\Tilemap\line.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="App">
+      <UniqueIdentifier>{49434d09-6ec3-4c44-96ce-117ea2befd8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{46c92549-2d55-4382-80c4-64a63cc3ca01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Scene">
+      <UniqueIdentifier>{a45d28ab-944f-49ad-b050-1c3e76b915ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Camera">
+      <UniqueIdentifier>{04e951ad-3682-4a62-9c94-6ea78ef49658}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Core">
+      <UniqueIdentifier>{8091652c-825a-483d-ac7d-860beeb65167}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Utility">
+      <UniqueIdentifier>{2b668dbe-f204-402e-954d-c280e8b9d88b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Resource">
+      <UniqueIdentifier>{eebf5c94-3869-4865-929b-00c37e54f567}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Core\D3D11">
+      <UniqueIdentifier>{9133589f-8447-4f0b-9efb-1d8d3a0fdb00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Core\Subsystem">
+      <UniqueIdentifier>{035f1a61-ca31-418c-b3a3-1c72c42c0101}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Component">
+      <UniqueIdentifier>{2f70f9f8-b10b-4341-b9cc-685489a64ed3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Math">
+      <UniqueIdentifier>{651d66f8-9b05-4e2f-822f-24156f9428ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Tilemap">
+      <UniqueIdentifier>{f4e5531a-9ea0-4eb0-9933-36774e107bb5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Framework",
+    "\\Framework\\Tilemap",
+    "\\Framework\\Tilemap\\PathFinder",
+    "\\Framework\\Tilemap\\PathFinder\\PathAlgorithm",
+    "\\Framework\\Tilemap\\PathFinder\\PathNode"
+  ],
+  "SelectedNode": "\\Framework\\Tilemap\\Tilemap.cpp",
+  "PreviewInSolutionExplorer": false
+}

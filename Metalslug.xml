@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpriteAnimation>
+  <Animation AnimationName="Idle" RepeatType="1">
+    <Keyframe TextureFilePath="Metalslug.png" OffsetX="5" OffsetY="2" SizeX="28" SizeY="38" Time="200"/>
+    <Keyframe TextureFilePath="Metalslug.png" OffsetX="36" OffsetY="2" SizeX="28" SizeY="38" Time="200"/>
+    <Keyframe TextureFilePath="Metalslug.png" OffsetX="65" OffsetY="2" SizeX="28" SizeY="38" Time="200"/>
+    <Keyframe TextureFilePath="Metalslug.png" OffsetX="36" OffsetY="2" SizeX="28" SizeY="38" Time="200"/>
+  </Animation>
+  <Animation AnimationName="Walk" RepeatType="1">
+    <Keyframe TextureFilePath="Metalslug.png" OffsetX="106" OffsetY="1" SizeX="31" SizeY="41" Time="200"/>
+    <Keyframe TextureFilePath="Metalslug.png" OffsetX="139" OffsetY="1" SizeX="28" SizeY="41" Time="200"/>
+    <Keyframe TextureFilePath="Metalslug.png" OffsetX="168" OffsetY="1" SizeX="32" SizeY="41" Time="200"/>
+    <Keyframe TextureFilePath="Metalslug.png" OffsetX="201" OffsetY="1" SizeX="32" SizeY="41" Time="200"/>
+    <Keyframe TextureFilePath="Metalslug.png" OffsetX="234" OffsetY="1" SizeX="28" SizeY="41" Time="200"/>
+    <Keyframe TextureFilePath="Metalslug.png" OffsetX="265" OffsetY="1" SizeX="29" SizeY="41" Time="200"/>
+    <Keyframe TextureFilePath="Metalslug.png" OffsetX="298" OffsetY="1" SizeX="32" SizeY="41" Time="200"/>
+    <Keyframe TextureFilePath="Metalslug.png" OffsetX="330" OffsetY="1" SizeX="36" SizeY="41" Time="200"/>
+    <Keyframe TextureFilePath="Metalslug.png" OffsetX="366" OffsetY="1" SizeX="32" SizeY="41" Time="200"/>
+  </Animation>
+</SpriteAnimation>
